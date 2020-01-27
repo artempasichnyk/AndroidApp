@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:longClickable="true"
+    android:background="?android:attr/listChoiceBackgroundIndicator">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:gravity="center_vertical"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_youtube"
+            android:src="@drawable/youtube"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/ib_facebook"
+            android:src="@drawable/facebook"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/ib_twitter"
+            android:src="@drawable/twitter"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/ib_vkontakte"
+            android:src="@drawable/vkontakte"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/ib_instagram"
+            android:src="@drawable/instagram"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:background="@null" />
+
+    </LinearLayout>
+
+</LinearLayout>
